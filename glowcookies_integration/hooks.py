@@ -19,6 +19,8 @@ app_license = "MIT"
 # include js, css files in header of web template
 # web_include_css = "/assets/glowcookies_integration/css/glowcookies_integration.css"
 # web_include_js = "/assets/glowcookies_integration/js/glowcookies_integration.js"
+web_include_css = "/assets/xtender/css/glowCookies.css"
+web_include_js = "/assets/xtender/js/glowCookies.js"
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "glowcookies_integration/public/scss/website"
