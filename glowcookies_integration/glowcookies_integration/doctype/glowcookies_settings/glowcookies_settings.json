@@ -9,6 +9,7 @@
   "active",
   "language_flag",
   "style",
+  "column_break_4",
   "policy_url",
   "google_analytics_id",
   "facebook_pixel_id"
@@ -50,12 +51,16 @@
    "fieldname": "facebook_pixel_id",
    "fieldtype": "Data",
    "label": "Facebook Pixel ID"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2022-07-14 23:57:25.426841",
+ "modified": "2022-07-15 00:06:24.861152",
  "modified_by": "Administrator",
  "module": "Glowcookies Integration",
  "name": "GlowCookies Settings",
