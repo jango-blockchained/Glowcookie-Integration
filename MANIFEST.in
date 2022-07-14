@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include glowcookies_integration *.css
+recursive-include glowcookies_integration *.csv
+recursive-include glowcookies_integration *.html
+recursive-include glowcookies_integration *.ico
+recursive-include glowcookies_integration *.js
+recursive-include glowcookies_integration *.json
+recursive-include glowcookies_integration *.md
+recursive-include glowcookies_integration *.png
+recursive-include glowcookies_integration *.py
+recursive-include glowcookies_integration *.svg
+recursive-include glowcookies_integration *.txt
+recursive-exclude glowcookies_integration *.pyc
