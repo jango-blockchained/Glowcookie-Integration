@@ -1,0 +1,6 @@
+{
+    "js/glowCookies.min.js": [
+		"public/js/glowCookies.js",
+		"public/js/addGlowCookies.js"
+	]
+}
