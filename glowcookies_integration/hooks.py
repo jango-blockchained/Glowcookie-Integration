@@ -22,7 +22,7 @@ app_license = "MIT"
 web_include_css = "/assets/glowcookies_integration/css/glowCookies.css"
 # web_include_js = "/assets/glowcookies_integration/js/glowCookies.js"
 # web_include_js = "/assets/glowcookies_integration/js/addGlowCookies.js"
-web_include_js = "/assets/glowcookies_integration/js/glowCookies.min.js"
+web_include_js = "/assets/js/glowCookies.min.js"
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "glowcookies_integration/public/scss/website"
