@@ -3,6 +3,6 @@ from frappe.utils import get_site_name
 
 import frappe
 
-@frappe.whitelist()
+@frappe.whitelist(allow_guest=True)
 def getSettings():
     return frappe.get_doc('GlowCookies Settings')
