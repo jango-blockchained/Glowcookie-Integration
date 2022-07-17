@@ -485,13 +485,17 @@ class LanguagesGC {
 
 const glowCookies = new GlowCookies()
 
-frappe.call('glowcookies_integration.api.utils.getSettings')
-.then(r => {
-  	let gc_opt = r.message;
-	if (gc_opt.active) {
-		glowCookies.start(gc_opt.language_flag, { 
-				style: gc_opt.style,
-				policyLink: gc_opt.policy_url
+// frappe.call('glowcookies_integration.api.utils.getSettings')
+// .then(r => {
+//   	let gc_opt = r.message;
+// 	if (gc_opt.active) {
+// 		glowCookies.start(gc_opt.language_flag, { 
+// 				style: gc_opt.style,
+// 				policyLink: gc_opt.policy_url
+// 		});
+// 	}
+// });
+glowCookies.start('de', { 
+				style: 2,
+				policyLink: 'https://erp.abigruppe.de/datenschutz'
 		});
-	}
-});
