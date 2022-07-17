@@ -6,5 +6,7 @@ frappe.call('glowcookies_integration.api.utils.getSettings')
 				style: gc_opt.style,
 				policyLink: gc_opt.policy_url
 		});
+	} else {
+		console.log('inactive cookie')
 	}
 });

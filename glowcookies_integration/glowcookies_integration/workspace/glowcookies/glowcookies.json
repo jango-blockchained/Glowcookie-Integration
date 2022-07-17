@@ -1,0 +1,37 @@
+{
+ "category": "Modules",
+ "charts": [],
+ "creation": "2022-07-17 10:40:11.677024",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends": "Settings",
+ "extends_another_page": 1,
+ "hide_custom": 0,
+ "icon": "fa fa-toggle-on",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "label": "GlowCookies",
+ "links": [
+  {
+   "hidden": 0,
+   "icon": "fa fa-toggle-on",
+   "is_query_report": 0,
+   "label": "GlowCookies Settings",
+   "link_to": "GlowCookies Settings",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Card Break"
+  }
+ ],
+ "modified": "2022-07-17 10:41:38.674446",
+ "modified_by": "Administrator",
+ "module": "Glowcookies Integration",
+ "name": "GlowCookies",
+ "owner": "Administrator",
+ "pin_to_bottom": 0,
+ "pin_to_top": 0,
+ "shortcuts": []
+}

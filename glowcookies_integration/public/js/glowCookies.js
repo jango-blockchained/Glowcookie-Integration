@@ -495,7 +495,20 @@ const glowCookies = new GlowCookies()
 // 		});
 // 	}
 // });
-glowCookies.start('de', { 
-				style: 2,
-				policyLink: 'https://erp.abigruppe.de/datenschutz'
+// glowCookies.start('de', { 
+// 				style: 2,
+// 				policyLink: 'https://erp.abigruppe.de/datenschutz'
+// 		});
+
+frappe.call('glowcookies_integration.api.utils.getSettings')
+.then(r => {
+  let gc_opt = r.message;
+	if (gc_opt.active === 1) {
+		glowCookies.start(gc_opt.language_flag, { 
+			style: gc_opt.style,
+			policyLink: gc_opt.policy_url
 		});
+	} else {
+		console.log('inactive cookie', gc_opt.active)
+	}
+});
