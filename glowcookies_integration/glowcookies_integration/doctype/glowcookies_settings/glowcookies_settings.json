@@ -1,5 +1,11 @@
 {
- "actions": [],
+ "actions": [
+  {
+   "action": "glowcookies_integration.api.utils.reinstall",
+   "action_type": "Server Action",
+   "label": "Reinstall"
+  }
+ ],
  "beta": 1,
  "creation": "2022-07-14 23:33:09.867491",
  "doctype": "DocType",
@@ -80,7 +86,7 @@
  ],
  "issingle": 1,
  "links": [],
- "modified": "2022-07-17 15:08:53.248809",
+ "modified": "2022-07-23 22:57:13.946558",
  "modified_by": "Administrator",
  "module": "Glowcookies Integration",
  "name": "GlowCookies Settings",
