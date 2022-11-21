@@ -485,19 +485,5 @@ class LanguagesGC {
 
 const glowCookies = new GlowCookies()
 
-/**
- * @author: jango_blockchained 
- */
-const xtenderCookie = xcall('glowCookiesSettingsWrapper')
-.then(r => {
-  // console.log( "pending...", r);
-  let res = r || r.message;
-  if (res.active) {
-    glowCookies.start(res.language_flag, { 
-      style: res.style,
-      policyLink: res.policy_url
-    });
-  } else {
-    console.log('inactive cookie', res.active)
-  }
-});
+
+

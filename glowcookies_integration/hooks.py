@@ -21,7 +21,7 @@ app_license = "MIT"
 # web_include_js = "/assets/glowcookies_integration/js/glowcookies_integration.js"
 web_include_css = "/assets/glowcookies_integration/css/glowCookies.css"
 web_include_js = "/assets/glowcookies_integration/js/glowCookies.js"
-# web_include_js = "/assets/glowcookies_integration/js/addGlowCookies.js"
+web_include_js = "/assets/glowcookies_integration/js/addGlowCookies.js"
 # web_include_js = "/assets/js/glowCookies.min.js"
 
 # include custom scss in every website theme (without file extension ".scss")
@@ -48,7 +48,7 @@ web_include_js = "/assets/glowcookies_integration/js/glowCookies.js"
 
 # website user home page (by Role)
 # role_home_page = {
-#	"Role": "home_page"
+# "Role": "home_page"
 # }
 
 # Generators
@@ -104,7 +104,7 @@ web_include_js = "/assets/glowcookies_integration/js/glowCookies.js"
 # 		"on_update": "method",
 # 		"on_cancel": "method",
 # 		"on_trash": "method"
-#	}
+# }
 # }
 
 # Scheduled Tasks
@@ -156,24 +156,24 @@ web_include_js = "/assets/glowcookies_integration/js/glowCookies.js"
 # --------------------
 
 user_data_fields = [
-	{
-		"doctype": "{doctype_1}",
-		"filter_by": "{filter_by}",
-		"redact_fields": ["{field_1}", "{field_2}"],
-		"partial": 1,
-	},
-	{
-		"doctype": "{doctype_2}",
-		"filter_by": "{filter_by}",
-		"partial": 1,
-	},
-	{
-		"doctype": "{doctype_3}",
-		"strict": False,
-	},
-	{
-		"doctype": "{doctype_4}"
-	}
+    {
+        "doctype": "{doctype_1}",
+        "filter_by": "{filter_by}",
+        "redact_fields": ["{field_1}", "{field_2}"],
+        "partial": 1,
+    },
+    {
+        "doctype": "{doctype_2}",
+        "filter_by": "{filter_by}",
+        "partial": 1,
+    },
+    {
+        "doctype": "{doctype_3}",
+        "strict": False,
+    },
+    {
+        "doctype": "{doctype_4}"
+    }
 ]
 
 # Authentication and authorization
